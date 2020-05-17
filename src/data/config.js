@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Filip Havrlent',
-  // logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: 'https://filip.havrlent.com/favicon/favicon-512.png',
   author: 'Filip Havrlent',
   url: 'https://filip.havrlent.com',
   legalName: 'Filip Havrlent',

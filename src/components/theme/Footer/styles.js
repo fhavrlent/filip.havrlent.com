@@ -31,13 +31,10 @@ export const Links = styled.div`
 
   a {
     margin: 0 0.5rem;
-
-    img {
-      margin: 0;
+    &:hover {
+      opacity: 0.8;
     }
-
-    &:first-child,
-    &:last-child {
+    img {
       margin: 0;
     }
   }
@@ -46,5 +43,11 @@ export const Links = styled.div`
 export const Details = styled.div`
   @media (max-width: 680px) {
     margin-bottom: 2rem;
+  }
+  a {
+    color: #05668d;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 `;

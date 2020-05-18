@@ -1,8 +1,10 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+
 import { Container, Card } from 'components/common';
-import starIcon from 'assets/icons/star.svg';
 import forkIcon from 'assets/icons/fork.svg';
+import starIcon from 'assets/icons/star.svg';
+
 import { Wrapper, Grid, Item, Content, Stats } from './styles';
 
 export const Projects = () => {
@@ -17,7 +19,7 @@ export const Projects = () => {
       {
         github {
           viewer {
-            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
+            repositories(first: 9, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: PUBLIC) {
               edges {
                 node {
                   id
